@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+}
+
+
+/* 
+   text-align: center will horizontally center the text 
+   and inline-level elements (like inline-blocks or images) 
+   within this container. Block-level elements, such as divs, 
+   won't be centered by this property alone.
+*/
+.main {
+    margin-top: 200px;
+    /* text-align: center; */
+}
+
+
+.logo-img {
+    display: block;
+    margin-top: 0px;
+    width: 500px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.search-input {
+    display: block;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+
+}
+
+/* To center the items and use margin auto, 
+   the element must be declared as display: block beforehand. 
+
+   To center the .btn horizontally using auto margins, 
+   we must set display: block. Inline elements do not respect 
+   auto margins, so setting display: block makes the element 
+   a block-level element, allowing margin: auto to work as intended.
+*/
+
+.btw-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    background-color: #dfe1e5;
+    margin-top: 30px;
+    margin-left:4px;
+    margin-right: 4px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
